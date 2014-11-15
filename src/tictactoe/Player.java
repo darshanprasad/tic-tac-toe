@@ -36,7 +36,7 @@ public class Player {
     /**
      * Accept user input for the square that they would like to play.
      * 
-     * @return 
+     * @return The number (as character) of the square selected by the user.
      */
     public char selectSquare() {
         System.out.println("Please choose a square to place your token, Player " + token + ": ");
